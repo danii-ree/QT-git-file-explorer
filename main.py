@@ -36,6 +36,7 @@ from PySide6.QtWidgets import (
 from PySide6.QtGui import QIcon, QAction
 from PySide6.QtCore import QDir, QModelIndex, QSize, Qt
 
+# this is a comment
 
 class GitManager:
     """Handles all Git-related operations"""
