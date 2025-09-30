@@ -478,7 +478,7 @@ class GitCommitDialog(QDialog):
         
         info_text = f"<b>Repository:</b> {os.path.basename(repo_path)}<br>"
         info_text += f"<b>Branch:</b> {branch or 'Unknown'}<br>"
-        
+        # test comment
         if remote:
             info_text += f"<b>Remote:</b> {remote}<br>"
         else:
